@@ -21,7 +21,7 @@ services:
     volumes:
       - ./pgadmin4/servers.json:/pgadmin4/servers.json
 
-  warehouse-service-db-migration:
+  challenge-service-db-migration:
     build:
       context: .
       dockerfile: Dockerfile

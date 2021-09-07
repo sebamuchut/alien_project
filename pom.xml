@@ -1,7 +1,7 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.valienta.warehouse</groupId>
-    <artifactId>warehouse-service-db-migration</artifactId>
+    <groupId>com.valienta</groupId>
+    <artifactId>challenge-service-db-migration</artifactId>
     <version>0.1.0</version>
     <packaging>jar</packaging>
 

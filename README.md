@@ -1,1 +1,1 @@
-# warehouse-service-db-migration
+# challenge-service-db-migration
