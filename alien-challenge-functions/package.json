@@ -25,11 +25,6 @@
         "preset": "ts-jest",
         "collectCoverage": false
     },
-    "husky": {
-        "hooks": {
-            "pre-push": "npm test"
-        }
-    },
     "author": "Valienta",
     "homepage": "",
     "repository": "",

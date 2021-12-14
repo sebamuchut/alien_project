@@ -27,7 +27,7 @@ const getDangerMessagesByLeader = async (leader: string) => {
             const difference = (nowMoment.diff(fifthTime, 'minutes')) + 180
 
             if (difference < 61) {
-                await axios.post('https://hooks.slack.com/services/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', {
+                await axios.post(process.env.SLACK_WEBHOOK, {
                     text: `${leader} has sent five DANGER messages within the last hour!`
                 });
                 console.log(`${leader} has sent five DANGER messages within the last hour!`)
