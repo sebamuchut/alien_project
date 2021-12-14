@@ -5,7 +5,7 @@ tmp/
 temp/
 .env
 dist/
-
+error.log
 .DS_Store
 coverage/
 newrelic_agent.log
